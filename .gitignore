@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+.output/
+
+# Generated types
+.astro/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.production
+
+# WebStorm
+.idea/
+
+# macOS-specific files
+.DS_Store
+
+# Astro and Keystatic
+.cache/
+.vercel/
+.netlify/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Editor directories and files
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# pnpm-specific
+pnpm-lock.yaml
+
+# Astro build output
+build/
+
+# Keystatic content
+.keystatic/
